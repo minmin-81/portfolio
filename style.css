@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body,html {
     width: 100%;
     height: 100vh;
@@ -147,7 +152,7 @@ body,html {
 .popup {
     width: 80vw;
     height: 80vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #fff;
     position: fixed;
     left: 0;
     right: 0;
@@ -155,11 +160,119 @@ body,html {
     bottom: 0;
     margin: auto;
     display: none;
+    overflow: hidden;
+}
+
+.popup_slide {
+    width: 700%;
+    height: 72%;
+    position: absolute;
+    left: 0;
+}
+
+.popup_slide li {
+    width: 14.2857142857%;
+    height: 100%;
+    float: left;
+}
+
+.popup_works {
+    border: 20px solid tomato;
+    border-left: none;
+    border-right: none;
+}
+
+.popup h1 {
+    font-size: 3vw;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+    margin-top: 3vh;
+    color:tomato;
+    border-bottom: 2px dotted #ccc;
+    padding-bottom: 2.5vh;
+}
+
+.popup_image {
+    width: 30vw;
+    height: 20vw;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 12vh;
+    border-radius: 20px;
+}
+
+.popup_textbox {
+    width: 40vw;
+    height: 45vh;
+    float: right;
+    margin-right: 2vw;
+    margin-top: 7.5vh;
+    padding: 1vw;
+    position: relative;
+}
+
+.popup_textbox h2 {
+    font-size: 2vw;
+    float: left;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+}
+
+.popup_textbox a {
+    float: left;
+    margin-left: 2vw;
+    width: 10vw;
+    height: 2.2vw;
+    line-height: 2.2vw;
+    font-size: 1vw;
+    color: #000;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 50px;
+    background-color: transparent;
+    text-align: center;
+    transition:0.3s;
+}
+
+.popup_textbox a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+
+
+.popup_textbox p {
+    clear: both;
+    margin-top: 10vh;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.text_notice {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    font-family: sans-serif;
+}
+
+.popup_textbox h5 {
+    font-size: 1vw;
+    color: tomato;
+    font-family: sans-serif;
+}
+
+.popup_textbox h6 {
+    margin-top: 2vh;
+    font-size: 1vw;
+    color:tomato;
+}
+
+.popup_works>.popup_close {
 }
 
 .popup_close {
     width: 10vw;
-    color: #ffffff;
+    color: #000;
     font-size: 1vw;
     font-weight: 900;
     background-color: transparent;
@@ -169,13 +282,56 @@ body,html {
     left: 0;
     right: 0;
     margin: auto;
+    transition:0.2s;
 }
 
 .popup_close:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000;
+    color: #fff;
 }
 
 .popup_close:focus {
     outline:none;
+}
+
+.popup_page {
+    width: 8vw;
+    height: 2.5vw;
+    line-height: 2.75vw;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 2vw;
+    text-align: center;
+}
+
+.popup_left_bt {
+    width: 30%;
+    float: left;
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    color: tomato;
+}
+
+.popup_right_bt {
+    width: 30%;
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    color: tomato;
+}
+
+.popup_page p {
+    width: 2.5vw;
+    font-weight: 900;
+}
+
+.popup_page button:active {
+    color: #000000;
+}
+
+.popup_page button:focus {
+    outline: none;
 }
