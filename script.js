@@ -6,6 +6,7 @@ $(document).ready(function(){
         // 바탕화면 회전
     $('.popup_close').click(function(){
         $('.popup').fadeOut();
+        $('.popup_wrap').fadeOut();
     })
 
 
@@ -15,14 +16,17 @@ $(document).ready(function(){
         $('.popup_slide').css({'left':0});
         slide_page = 1;
         $('.popup_page p').text('1/7');
+        $('.popup_wrap').fadeIn();
     })
 
     $('.aboutme').click(function(){
         $('.popup_aboutme').fadeIn();
+        $('.popup_wrap').fadeIn();
     })
 
     $('.contact').click(function(){
         $('.popup_contact').fadeIn();
+        $('.popup_wrap').fadeIn();
     })
 
     let slide_num = 0;
@@ -56,4 +60,21 @@ $(document).ready(function(){
             $('.popup_page p').text('7/7')
         }
     })
+
+
+    
+
+});
+
+$(function(){ 
+    let mql = window.matchMedia("screen and (max-width: 768px)");
+
+    mql.addListener(function(e) {
+        if(e.matches) {
+            console.log('모바일 화면 입니다.');
+        } else {
+            console.log('데스크탑 화면 입니다.');
+        }
+    })
+
 });
