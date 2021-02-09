@@ -11,6 +11,10 @@ $(document).ready(function(){
 
     $('.works').click(function(){
         $('.popup_works').fadeIn();
+        slide_num = 0;
+        $('.popup_slide').css({'left':0});
+        slide_page = 1;
+        $('.popup_page p').text('1/7');
     })
 
     $('.aboutme').click(function(){

@@ -335,3 +335,183 @@ body,html {
 .popup_page button:focus {
     outline: none;
 }
+
+/*  */
+
+.popup_aboutme {
+    border: 20px solid yellowgreen;
+    border-left: none;
+    border-right: none;
+}
+
+.popup_aboutme h1 {
+    color: yellowgreen;
+}
+
+.popup_aboutme_license {
+    width: 30%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7vh;
+}
+
+.popup_aboutme_license li {
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup_aboutme_license li:nth-child(1) {
+    font-size: 1.5vw;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+    margin-bottom: 3vw;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid #999;
+    padding-bottom: 1vh;
+}
+
+.popup_aboutme_license li:nth-child(1) h2 span {
+    color: yellowgreen;
+    font-size: 3vw;
+}
+
+.popup_aboutme_license li h5 {
+    font-size: 1.4vw;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+}
+
+.popup_aboutme_license li p {
+    font-size: 1vw;
+}
+
+.popup_aboutme_skills {
+    width: 50%;
+    float: right;
+    margin-right: 7%;
+    margin-top: 7vh;
+}
+
+.popup_aboutme_skills li {
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 2.5vh;
+    font-family: sans-serif;
+}
+
+.popup_aboutme_skills li:nth-child(1) {
+    font-size: 1.5vw;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+    margin-bottom: 2vw;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid #999;
+    padding-bottom: 1vh;
+}
+
+.popup_aboutme_skills li:nth-child(1) h2 span {
+    color: yellowgreen;
+    font-size: 3vw;
+}
+
+.popup_aboutme_skills li:nth-child(2) {
+    background: url(images/html.png) left no-repeat;
+    background-size: 4%;
+}
+
+.popup_aboutme_skills li:nth-child(3) {
+    background: url(images/css.png) left no-repeat;
+    background-size: 4%;
+}
+
+.popup_aboutme_skills li:nth-child(4) {
+    background: url(images/javascript.png) left no-repeat;
+    background-size: 4%;
+}
+
+.popup_aboutme_skills li:nth-child(5) {
+    background: url(images/photoshop.png) left no-repeat;
+    background-size: 4%;
+}
+
+.popup_aboutme_skills li:nth-child(6) {
+    background: url(images/illustrator.png) left no-repeat;
+    background-size: 4%;
+}
+
+.popup_aboutme_skills li:nth-child(7) {
+    background: url(images/git.png) left no-repeat;
+    background-size: 4%;
+}
+/*  */
+
+.popup_contact {
+    border: 20px solid orange;
+    border-left: none;
+    border-right: none;
+}
+
+.popup_contact h1 {
+    color: orange;
+}
+
+.popup_contact_item {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-top: 3vw;
+}
+
+.popup_contact_item li {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    line-height: 7vh;
+    padding-left: 5vw;
+}
+
+.popup_contact_item li:nth-child(1) {
+    background: url(images/call.png) left no-repeat;
+    background-size: 8%;
+}
+.popup_contact_item li:nth-child(2) {
+    background: url(images/mail.png) left no-repeat;
+    background-size: 8%;
+}
+.popup_contact_item li:nth-child(3) {
+    background: url(images/locate.png) left no-repeat;
+    background-size: 8%;
+}
+
+.popup_contact_item li h5 {
+    font-size: 1.5vw;
+    font-family: '여기어때 잘난체 OTF',sans-serif;
+    margin-right: 2vw;
+}
+
+.popup_contact_item li p {
+    font-family: sans-serif;
+}
+
+.popup_contact_mailbt {
+    padding: 0.7vw 1.5vw;
+    height: auto;
+    font-size: 1vw;
+    border: none;
+    border-radius: 1000px;
+    background-color: orange;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+    margin-left: 2w;
+    margin-right: 5vw;
+}
+
+.popup_contact_mailbt:active {
+    background-color: #666;
+}
+
+.popup_contact_mailbt:focus {
+    outline : none;
+}
