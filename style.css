@@ -278,6 +278,7 @@ body,html {
     margin-top: 10vh;
     font-weight: 600;
     font-family: sans-serif;
+    font-size: 1.2vw;
 }
 
 .text_notice {
@@ -743,21 +744,27 @@ body,html {
 
     .popup_aboutme_skills li:nth-child(2) {
         background-size: 10%;
+        height: 7vw;
     }
     .popup_aboutme_skills li:nth-child(3) {
         background-size: 10%;
+        height: 7vw;
     }
     .popup_aboutme_skills li:nth-child(4) {
         background-size: 10%;
+        height: 7vw;
     }
     .popup_aboutme_skills li:nth-child(5) {
         background-size: 10%;
+        height: 7vw;
     }
     .popup_aboutme_skills li:nth-child(6) {
         background-size: 10%;
+        height: 7vw;
     }
     .popup_aboutme_skills li:nth-child(7) {
         background-size: 10%;
+        height: 7vw;
     }
 
     /*  */
