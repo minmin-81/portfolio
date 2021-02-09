@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +14,12 @@ a {
 }
 
 body,html {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .title_box {
@@ -70,7 +74,7 @@ body,html {
 
 .body_notice h4 {
     font-size: 1vw;
-    color:#000;
+    color:tomato;
     font-family: sans-serif;
 }
 
@@ -294,10 +298,9 @@ body,html {
     margin-top: 2vh;
     font-size: 1vw;
     color:tomato;
+    font-family: sans-serif;
 }
 
-.popup_works>.popup_close {
-}
 
 .popup_close {
     width: 10vw;
@@ -355,6 +358,7 @@ body,html {
 .popup_page p {
     width: 2.5vw;
     font-weight: 900;
+    text-align: center;
 }
 
 .popup_page button:active {
@@ -642,5 +646,161 @@ body,html {
         height: 100vh;
     }
 
+    .popup_works h1 {
+        font-size: 20px;
+    }
 
+    .popup_image {
+        width: 60vw;
+        height: 40vw;
+        float: none;
+        display: block;
+        margin: auto;
+        margin-top: 4vh;
+    }
+
+    .popup_textbox {
+        float: none;
+        width: 60vw;
+        display: block;
+        margin: auto;
+        margin-top: 3vh;
+    }
+
+    .popup_textbox h2 {
+        font-size: 16px;
+    }
+
+    .popup_textbox a {
+        float: right;
+        width: auto;
+        height: auto;
+        padding: 2vw;
+        font-size: 2vw;
+        margin-top: -1.5vw;
+    }
+
+    .popup_textbox p {
+        margin-top: 5vh;
+        font-size: 4vw;   
+    }
+
+    .text_notice {
+        height: auto;
+        bottom: 25vw;
+    }
+
+    .popup_textbox h5, .popup_textbox h6 {
+        font-size: 1.2vw;
+    }
+
+    .popup_close {
+        font-size: 3vw;
+    }
+
+    .popup_page {
+        right: 5vw;
+        width: 14vw;
+        height: auto;
+        line-height: auto;
+    }
+
+    .popup_page p {
+        width: auto;
+        font-size: 2vw;
+    }
+
+    /*  */
+
+    .popup_aboutme h1 {
+        font-size: 20px;
+    }
+
+    .popup_aboutme_resume {
+        top: 6vw;
+    }
+
+    .popup_aboutme_selfintroduce {
+        right: 15vw;
+        top: 6vw;
+    }
+
+    .popup_aboutme_license li {
+        display: block;
+    }
+
+    .popup_aboutme_license li h5 {
+        font-size: 1.2vw;
+    }
+
+    .popup_aboutme_license li p {
+        margin-top: 1vw;
+    }
+
+    .popup_aboutme_skills li {
+        padding-left: 5vw;
+    }
+
+    .popup_aboutme_skills li:nth-child(2) {
+        background-size: 10%;
+    }
+    .popup_aboutme_skills li:nth-child(3) {
+        background-size: 10%;
+    }
+    .popup_aboutme_skills li:nth-child(4) {
+        background-size: 10%;
+    }
+    .popup_aboutme_skills li:nth-child(5) {
+        background-size: 10%;
+    }
+    .popup_aboutme_skills li:nth-child(6) {
+        background-size: 10%;
+    }
+    .popup_aboutme_skills li:nth-child(7) {
+        background-size: 10%;
+    }
+
+    /*  */
+
+    .popup_contact h1 {
+        font-size: 20px;
+    }
+    
+    .popup_contact_item {
+        width: 80vw;
+        padding: 0 5vw;
+        position: absolute;
+        top: 0;
+        bottom: 10vh;
+        margin: auto;
+    }
+
+    .popup_contact_item li {
+        padding-left: 20vw;
+        display: block;
+        line-height: 1.5;
+    }
+
+    .popup_contact_item li:nth-child(1) {
+        background-size: 20%;
+    }
+    .popup_contact_item li:nth-child(2) {
+        background-size: 20%;
+    }
+    .popup_contact_item li:nth-child(3) {
+        background-size: 20%;
+    }
+
+    .popup_contact_item li h5 {
+        font-size: 5vw;
+    }
+    .popup_contact_item li p {
+        margin-top: 1vh;
+    }
+
+    .popup_contact_mailbt {
+        margin-top: -11vw;
+        font-size: 1.2vw;
+        padding: 1.5vw 2.5vw;
+    }
 }; 

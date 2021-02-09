@@ -65,16 +65,3 @@ $(document).ready(function(){
     
 
 });
-
-$(function(){ 
-    let mql = window.matchMedia("screen and (max-width: 768px)");
-
-    mql.addListener(function(e) {
-        if(e.matches) {
-            console.log('모바일 화면 입니다.');
-        } else {
-            console.log('데스크탑 화면 입니다.');
-        }
-    })
-
-});
