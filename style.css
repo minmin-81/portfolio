@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: '여기어때 잘난체 OTF';
+    font-style: normal;
+    font-weight: 400;
+    src: url(JalnanOTF.otf) format('otf');
+}
 
 * {
     margin: 0;
@@ -399,17 +404,6 @@ body,html {
     font-size: 1.3vw;
 }
 
-.popup_aboutme_resume {
-    position: absolute;
-    right: 0;
-    top: 1.5vw;
-}
-
-.popup_aboutme_selfintroduce {
-    position: absolute;
-    right: 8vw;
-    top: 1.5vw;
-}
 
 .popup_aboutme_license {
     width: 30%;
@@ -557,6 +551,7 @@ body,html {
 
 .popup_contact_item li p {
     font-family: sans-serif;
+    font-size: 1.3vw;
 }
 
 .popup_contact_mailbt {
@@ -676,8 +671,9 @@ body,html {
         float: right;
         width: auto;
         height: auto;
-        padding: 2vw;
-        font-size: 2vw;
+        padding: 1.5vw 2.5vw;
+        font-size: 2.5vw;
+        font-weight: 900;
         margin-top: -1.5vw;
     }
 
@@ -691,12 +687,16 @@ body,html {
         bottom: 25vw;
     }
 
-    .popup_textbox h5, .popup_textbox h6 {
-        font-size: 1.2vw;
+    .text_notice h5 {
+        font-size: 3vw;
+    }
+
+    .text_notice h6 {
+        font-size: 3vw;
     }
 
     .popup_close {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .popup_page {
@@ -708,7 +708,15 @@ body,html {
 
     .popup_page p {
         width: auto;
-        font-size: 2vw;
+        font-size: 3vw;
+    }
+
+    .popup_left_bt {
+        font-size: 3vw;
+    }
+
+    .popup_right_bt {
+        font-size: 3vw;
     }
 
     /*  */
@@ -717,29 +725,29 @@ body,html {
         font-size: 20px;
     }
 
-    .popup_aboutme_resume {
-        top: 6vw;
-    }
-
-    .popup_aboutme_selfintroduce {
-        right: 15vw;
-        top: 6vw;
-    }
-
     .popup_aboutme_license li {
         display: block;
     }
 
+    .popup_aboutme_license li h2 {
+        font-size: 3.5vw;
+    }
+
     .popup_aboutme_license li h5 {
-        font-size: 1.2vw;
+        font-size: 2vw;
     }
 
     .popup_aboutme_license li p {
+        font-size: 1.2vw;
         margin-top: 1vw;
     }
 
     .popup_aboutme_skills li {
         padding-left: 5vw;
+    }
+
+    .popup_aboutme_skills li h2 {
+        font-size: 3.5vw;
     }
 
     .popup_aboutme_skills li:nth-child(2) {
@@ -765,6 +773,10 @@ body,html {
     .popup_aboutme_skills li:nth-child(7) {
         background-size: 10%;
         height: 7vw;
+    }
+
+    .popup_aboutme_skills li h5 {
+        font-size: 3vw;
     }
 
     /*  */
@@ -802,6 +814,7 @@ body,html {
         font-size: 5vw;
     }
     .popup_contact_item li p {
+        font-size: 4.5vw;
         margin-top: 1vh;
     }
 
