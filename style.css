@@ -3,7 +3,7 @@
     font-family: '여기어때 잘난체 OTF';
     font-style: normal;
     font-weight: 400;
-    src: url(JalnanOTF.otf) format('otf');
+    src: url(JalnanOTF.otf);
 }
 
 * {
@@ -309,7 +309,7 @@ body,html {
 
 
 .popup_close {
-    width: 10vw;
+    width: 15vw;
     color: #000;
     font-size: 1vw;
     font-weight: 900;
@@ -590,6 +590,11 @@ body,html {
         font-size: 16px;
     }
 
+
+    .body_notice h4{
+        font-size: 3vw;
+    }
+
     .title_img {
         width: 50vw;
         height: 50vw;
@@ -679,7 +684,7 @@ body,html {
 
     .popup_textbox p {
         margin-top: 5vh;
-        font-size: 4vw;   
+        font-size: 3vw;   
     }
 
     .text_notice {
@@ -708,6 +713,7 @@ body,html {
 
     .popup_page p {
         width: auto;
+        line-height: auto;
         font-size: 3vw;
     }
 
@@ -734,11 +740,11 @@ body,html {
     }
 
     .popup_aboutme_license li h5 {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .popup_aboutme_license li p {
-        font-size: 1.2vw;
+        font-size: 2vw;
         margin-top: 1vw;
     }
 
