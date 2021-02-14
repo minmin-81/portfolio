@@ -707,8 +707,8 @@ body,html {
     .popup_page {
         right: 5vw;
         width: 14vw;
-        height: auto;
-        line-height: auto;
+        height: 20px;
+        line-height: 20px;
     }
 
     .popup_page p {
