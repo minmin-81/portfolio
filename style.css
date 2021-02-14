@@ -3,14 +3,7 @@
     font-family: '여기어때 잘난체 OTF';
     font-style: normal;
     font-weight: 400;
-    src: url(JalnanOTF.otf);
-}
-
-@font-face {
-    font-family: 'yg-jalnan';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('JalnanOTF.otf');
 }
 
 * {
@@ -833,7 +826,7 @@ body,html {
 
     .popup_contact_mailbt {
         margin-top: -11vw;
-        font-size: 1.2vw;
+        font-size: 3vw;
         padding: 1.5vw 2.5vw;
     }
 }; 
