@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
 
-    $('.navi_box').css({'transform':'rotate(10000deg)'},'linear')
-    $('.big_box').css({'transform':'rotate(-10000deg)'},'linear')
+    $('.navi_box').animate({'rotate':'10000deg'},1500000,'linear');
+    $('.big_box').animate({'rotate':'-10000deg'},1500000,'linear')
         // 바탕화면 회전
     $('.popup_close').click(function(){
         $('.popup').fadeOut();
